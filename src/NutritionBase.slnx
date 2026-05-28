@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="NutritionBase.Api/NutritionBase.Api.csproj" />
+  <Project Path="NutritionBase.Application/NutritionBase.Application.csproj" />
+  <Project Path="NutritionBase.Domain/NutritionBase.Domain.csproj" />
+  <Project Path="NutritionBase.Infrastructure/NutritionBase.Infrastructure.csproj" />
+  <Project Path="NutritionBase.UnitTests/NutritionBase.UnitTests.csproj" />
+</Solution>

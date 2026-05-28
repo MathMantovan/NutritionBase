@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "NutritionBase.Infrastructure/1.0.0": {
+        "dependencies": {
+          "NutritionBase.Application": "1.0.0",
+          "NutritionBase.Domain": "1.0.0"
+        },
+        "runtime": {
+          "NutritionBase.Infrastructure.dll": {}
+        }
+      },
+      "NutritionBase.Application/1.0.0": {
+        "dependencies": {
+          "NutritionBase.Domain": "1.0.0"
+        },
+        "runtime": {
+          "NutritionBase.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NutritionBase.Domain/1.0.0": {
+        "runtime": {
+          "NutritionBase.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NutritionBase.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NutritionBase.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NutritionBase.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
