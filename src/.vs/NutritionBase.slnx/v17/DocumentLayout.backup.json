@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{785AF692-8409-FB0E-BBD3-D5B5BC1E5A40}|NutritionBase.Domain\\NutritionBase.Domain.csproj|c:\\users\\matheus.mantovan\\onedrive - jaxtech comerio e servi\u00E7os de tecnologia ltda\\\u00E1rea de trabalho\\devpessoal\\nutritionbase\\src\\nutritionbase.domain\\entities\\mealplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{785AF692-8409-FB0E-BBD3-D5B5BC1E5A40}|NutritionBase.Domain\\NutritionBase.Domain.csproj|solutionrelative:nutritionbase.domain\\entities\\mealplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{785AF692-8409-FB0E-BBD3-D5B5BC1E5A40}|NutritionBase.Domain\\NutritionBase.Domain.csproj|c:\\users\\matheus.mantovan\\onedrive - jaxtech comerio e servi\u00E7os de tecnologia ltda\\\u00E1rea de trabalho\\devpessoal\\nutritionbase\\src\\nutritionbase.domain\\entities\\meal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785AF692-8409-FB0E-BBD3-D5B5BC1E5A40}|NutritionBase.Domain\\NutritionBase.Domain.csproj|solutionrelative:nutritionbase.domain\\entities\\meal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785AF692-8409-FB0E-BBD3-D5B5BC1E5A40}|NutritionBase.Domain\\NutritionBase.Domain.csproj|c:\\users\\matheus.mantovan\\onedrive - jaxtech comerio e servi\u00E7os de tecnologia ltda\\\u00E1rea de trabalho\\devpessoal\\nutritionbase\\src\\nutritionbase.domain\\entities\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785AF692-8409-FB0E-BBD3-D5B5BC1E5A40}|NutritionBase.Domain\\NutritionBase.Domain.csproj|solutionrelative:nutritionbase.domain\\entities\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785AF692-8409-FB0E-BBD3-D5B5BC1E5A40}|NutritionBase.Domain\\NutritionBase.Domain.csproj|c:\\users\\matheus.mantovan\\onedrive - jaxtech comerio e servi\u00E7os de tecnologia ltda\\\u00E1rea de trabalho\\devpessoal\\nutritionbase\\src\\nutritionbase.domain\\enums\\measurementunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785AF692-8409-FB0E-BBD3-D5B5BC1E5A40}|NutritionBase.Domain\\NutritionBase.Domain.csproj|solutionrelative:nutritionbase.domain\\enums\\measurementunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{785AF692-8409-FB0E-BBD3-D5B5BC1E5A40}|NutritionBase.Domain\\NutritionBase.Domain.csproj|c:\\users\\matheus.mantovan\\onedrive - jaxtech comerio e servi\u00E7os de tecnologia ltda\\\u00E1rea de trabalho\\devpessoal\\nutritionbase\\src\\nutritionbase.domain\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{785AF692-8409-FB0E-BBD3-D5B5BC1E5A40}|NutritionBase.Domain\\NutritionBase.Domain.csproj|solutionrelative:nutritionbase.domain\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785AF692-8409-FB0E-BBD3-D5B5BC1E5A40}|NutritionBase.Domain\\NutritionBase.Domain.csproj|c:\\users\\matheus.mantovan\\onedrive - jaxtech comerio e servi\u00E7os de tecnologia ltda\\\u00E1rea de trabalho\\devpessoal\\nutritionbase\\src\\nutritionbase.domain\\entities\\mealplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785AF692-8409-FB0E-BBD3-D5B5BC1E5A40}|NutritionBase.Domain\\NutritionBase.Domain.csproj|solutionrelative:nutritionbase.domain\\entities\\mealplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{785AF692-8409-FB0E-BBD3-D5B5BC1E5A40}|NutritionBase.Domain\\NutritionBase.Domain.csproj|c:\\users\\matheus.mantovan\\onedrive - jaxtech comerio e servi\u00E7os de tecnologia ltda\\\u00E1rea de trabalho\\devpessoal\\nutritionbase\\src\\nutritionbase.domain\\entities\\nutritionalist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{785AF692-8409-FB0E-BBD3-D5B5BC1E5A40}|NutritionBase.Domain\\NutritionBase.Domain.csproj|c:\\users\\matheus.mantovan\\onedrive - jaxtech comerio e servi\u00E7os de tecnologia ltda\\\u00E1rea de trabalho\\devpessoal\\nutritionbase\\src\\nutritionbase.domain\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{785AF692-8409-FB0E-BBD3-D5B5BC1E5A40}|NutritionBase.Domain\\NutritionBase.Domain.csproj|solutionrelative:nutritionbase.domain\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{785AF692-8409-FB0E-BBD3-D5B5BC1E5A40}|NutritionBase.Domain\\NutritionBase.Domain.csproj|c:\\users\\matheus.mantovan\\onedrive - jaxtech comerio e servi\u00E7os de tecnologia ltda\\\u00E1rea de trabalho\\devpessoal\\nutritionbase\\src\\nutritionbase.domain\\entities\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{785AF692-8409-FB0E-BBD3-D5B5BC1E5A40}|NutritionBase.Domain\\NutritionBase.Domain.csproj|solutionrelative:nutritionbase.domain\\entities\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{785AF692-8409-FB0E-BBD3-D5B5BC1E5A40}|NutritionBase.Domain\\NutritionBase.Domain.csproj|c:\\users\\matheus.mantovan\\onedrive - jaxtech comerio e servi\u00E7os de tecnologia ltda\\\u00E1rea de trabalho\\devpessoal\\nutritionbase\\src\\nutritionbase.domain\\entities\\meal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{785AF692-8409-FB0E-BBD3-D5B5BC1E5A40}|NutritionBase.Domain\\NutritionBase.Domain.csproj|solutionrelative:nutritionbase.domain\\entities\\meal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +54,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "MeasurementUnit.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Domain\\Enums\\MeasurementUnit.cs",
+              "RelativeDocumentMoniker": "NutritionBase.Domain\\Enums\\MeasurementUnit.cs",
+              "ToolTip": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Domain\\Enums\\MeasurementUnit.cs",
+              "RelativeToolTip": "NutritionBase.Domain\\Enums\\MeasurementUnit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T17:41:14.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Phone.cs",
               "DocumentMoniker": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Domain\\ValueObjects\\Phone.cs",
               "RelativeDocumentMoniker": "NutritionBase.Domain\\ValueObjects\\Phone.cs",
@@ -58,12 +75,11 @@
               "RelativeToolTip": "NutritionBase.Domain\\ValueObjects\\Phone.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAIwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T17:08:13.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T17:08:13.914Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Email.cs",
               "DocumentMoniker": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Domain\\ValueObjects\\Email.cs",
               "RelativeDocumentMoniker": "NutritionBase.Domain\\ValueObjects\\Email.cs",
@@ -71,12 +87,11 @@
               "RelativeToolTip": "NutritionBase.Domain\\ValueObjects\\Email.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAADwvyUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T15:58:18.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T15:58:18.247Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "DomainException.cs",
               "DocumentMoniker": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Domain\\Exceptions\\DomainException.cs",
               "RelativeDocumentMoniker": "NutritionBase.Domain\\Exceptions\\DomainException.cs",
@@ -84,64 +99,63 @@
               "RelativeToolTip": "NutritionBase.Domain\\Exceptions\\DomainException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T15:45:18.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T15:45:18.54Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "FoodItem.cs",
               "DocumentMoniker": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Domain\\Entities\\FoodItem.cs",
               "RelativeDocumentMoniker": "NutritionBase.Domain\\Entities\\FoodItem.cs",
               "ToolTip": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Domain\\Entities\\FoodItem.cs",
               "RelativeToolTip": "NutritionBase.Domain\\Entities\\FoodItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAUwDEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-28T15:42:51.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Meal.cs",
               "DocumentMoniker": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Domain\\Entities\\Meal.cs",
               "RelativeDocumentMoniker": "NutritionBase.Domain\\Entities\\Meal.cs",
               "ToolTip": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Domain\\Entities\\Meal.cs",
               "RelativeToolTip": "NutritionBase.Domain\\Entities\\Meal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAuwD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-28T15:42:39.12Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MealPlan.cs",
               "DocumentMoniker": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Domain\\Entities\\MealPlan.cs",
               "RelativeDocumentMoniker": "NutritionBase.Domain\\Entities\\MealPlan.cs",
               "ToolTip": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Domain\\Entities\\MealPlan.cs",
               "RelativeToolTip": "NutritionBase.Domain\\Entities\\MealPlan.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA8AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-28T15:42:28.797Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Patient.cs",
               "DocumentMoniker": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Domain\\Entities\\Patient.cs",
               "RelativeDocumentMoniker": "NutritionBase.Domain\\Entities\\Patient.cs",
               "ToolTip": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Domain\\Entities\\Patient.cs",
               "RelativeToolTip": "NutritionBase.Domain\\Entities\\Patient.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAmwEcAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAqwEcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-28T15:41:45.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Nutritionalist.cs",
               "DocumentMoniker": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Domain\\Entities\\Nutritionalist.cs",
               "RelativeDocumentMoniker": "NutritionBase.Domain\\Entities\\Nutritionalist.cs",
@@ -149,8 +163,7 @@
               "RelativeToolTip": "NutritionBase.Domain\\Entities\\Nutritionalist.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAxwEMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T15:41:31.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T15:41:31.64Z"
             }
           ]
         }
