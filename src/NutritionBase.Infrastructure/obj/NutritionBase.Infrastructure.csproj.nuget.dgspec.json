@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Infrastructure\\NutritionBase.Infrastructure.csproj": {}
+    "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Infrastructure\\NutritionBase.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Application\\NutritionBase.Application.csproj": {
+    "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Application\\NutritionBase.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Application\\NutritionBase.Application.csproj",
+        "projectUniqueName": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Application\\NutritionBase.Application.csproj",
         "projectName": "NutritionBase.Application",
-        "projectPath": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Application\\NutritionBase.Application.csproj",
+        "projectPath": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Application\\NutritionBase.Application.csproj",
         "packagesPath": "C:\\Users\\matheus.mantovan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Application\\obj\\",
+        "outputPath": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -30,10 +30,11 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Domain\\NutritionBase.Domain.csproj": {
-                "projectPath": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Domain\\NutritionBase.Domain.csproj"
+              "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Domain\\NutritionBase.Domain.csproj": {
+                "projectPath": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Domain\\NutritionBase.Domain.csproj"
               }
             }
           }
@@ -48,11 +49,18 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[14.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -69,18 +77,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.314/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Domain\\NutritionBase.Domain.csproj": {
+    "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Domain\\NutritionBase.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Domain\\NutritionBase.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Domain\\NutritionBase.Domain.csproj",
         "projectName": "NutritionBase.Domain",
-        "projectPath": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Domain\\NutritionBase.Domain.csproj",
+        "projectPath": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Domain\\NutritionBase.Domain.csproj",
         "packagesPath": "C:\\Users\\matheus.mantovan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Domain\\obj\\",
+        "outputPath": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,6 +107,7 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -113,10 +122,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "imports": [
             "net461",
@@ -134,18 +144,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.314/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Infrastructure\\NutritionBase.Infrastructure.csproj": {
+    "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Infrastructure\\NutritionBase.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Infrastructure\\NutritionBase.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Infrastructure\\NutritionBase.Infrastructure.csproj",
         "projectName": "NutritionBase.Infrastructure",
-        "projectPath": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Infrastructure\\NutritionBase.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Infrastructure\\NutritionBase.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\matheus.mantovan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -164,13 +174,14 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Application\\NutritionBase.Application.csproj": {
-                "projectPath": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Application\\NutritionBase.Application.csproj"
+              "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Application\\NutritionBase.Application.csproj": {
+                "projectPath": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Application\\NutritionBase.Application.csproj"
               },
-              "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Domain\\NutritionBase.Domain.csproj": {
-                "projectPath": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\NutritionBase\\src\\NutritionBase.Domain\\NutritionBase.Domain.csproj"
+              "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Domain\\NutritionBase.Domain.csproj": {
+                "projectPath": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Domain\\NutritionBase.Domain.csproj"
               }
             }
           }
@@ -185,10 +196,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "imports": [
             "net461",
@@ -206,7 +218,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.314/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
