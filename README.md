@@ -1,6 +1,6 @@
 # NutritionBase API
 
-API REST para gerenciamento de pacientes e planos alimentares de nutricionistas. Desenvolvida como teste técnico para vaga de Desenvolvedor Pleno .NET.
+API REST para gerenciamento de pacientes e planos alimentares de nutricionistas. 
 
 ---
 
