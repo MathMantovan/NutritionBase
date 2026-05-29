@@ -19,6 +19,10 @@ public class UpdatePatientHandler : IRequestHandler<UpdatePatientCommand, Patien
     {
         var patient = await _repository.GetByIdAsync(command.Id)
             ?? throw new DomainException("Paciente não encontrado.");
+
+        if (patient.NutritionistId != command.NutritionistId)
+            throw new DomainException("Paciente não encontrado.");
+
         if (patient.Email.ToString() != command.Email)
         {
             if (await _repository.ExistsByEmailAsync(command.Email, command.NutritionistId))

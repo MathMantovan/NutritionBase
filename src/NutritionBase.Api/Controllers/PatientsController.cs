@@ -47,7 +47,7 @@ public class PatientsController : ControllerBase
     [HttpGet("{id:guid}")]
     public async Task<IActionResult> GetById(Guid id)
     {
-        var query = new GetPatientByIdQuery(id);
+        var query = new GetPatientByIdQuery(id, GetNutritionistId());
         var result = await _sender.Send(query);
         return Ok(result);
     }
@@ -81,7 +81,7 @@ public class PatientsController : ControllerBase
     [HttpDelete("{id:guid}")]
     public async Task<IActionResult> Remove(Guid id)
     {
-        var command = new RemovePatientCommand(id);
+        var command = new RemovePatientCommand(id, GetNutritionistId());
         await _sender.Send(command);
         return NoContent();
     }

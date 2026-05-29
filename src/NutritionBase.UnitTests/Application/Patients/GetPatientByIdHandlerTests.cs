@@ -25,7 +25,21 @@ public class GetPatientByIdHandlerTests
         var patientId = Guid.NewGuid();
         _repoMock.Setup(r => r.GetByIdAsync(patientId)).ReturnsAsync((Patient?)null);
 
-        var query = new GetPatientByIdQuery(patientId);
+        var query = new GetPatientByIdQuery(patientId, _nutritionistId);
+        Func<Task> act = async () => await _handler.Handle(query, CancellationToken.None);
+        var assertion = await act.Should().ThrowAsync<DomainException>();
+        assertion.WithMessage("*Paciente*não encontrado*");
+    }
+
+    [Fact]
+    public async Task Handle_PatientBelongsToDifferentNutritionist_ThrowsDomainException()
+    {
+        var patient = Patient.Create(_nutritionistId, "João Silva", "joao@example.com", "987654321", "11",
+            new DateTime(1990, 1, 1), 75m, 1.80m);
+        _repoMock.Setup(r => r.GetByIdAsync(patient.Id)).ReturnsAsync(patient);
+
+        var otherNutritionistId = Guid.NewGuid();
+        var query = new GetPatientByIdQuery(patient.Id, otherNutritionistId);
         Func<Task> act = async () => await _handler.Handle(query, CancellationToken.None);
         var assertion = await act.Should().ThrowAsync<DomainException>();
         assertion.WithMessage("*Paciente*não encontrado*");
@@ -38,7 +52,7 @@ public class GetPatientByIdHandlerTests
             new DateTime(1990, 1, 1), 75m, 1.80m);
         _repoMock.Setup(r => r.GetByIdAsync(patient.Id)).ReturnsAsync(patient);
 
-        var query = new GetPatientByIdQuery(patient.Id);
+        var query = new GetPatientByIdQuery(patient.Id, _nutritionistId);
         var response = await _handler.Handle(query, CancellationToken.None);
 
         response.Id.Should().Be(patient.Id);

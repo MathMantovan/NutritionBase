@@ -48,6 +48,12 @@ public class MealPlanRepository : IMealPlanRepository
     {
         try
         {
+            foreach (var meal in mealPlan.Meals)
+            {
+                if (_context.Entry(meal).State == EntityState.Detached)
+                    _context.Add(meal);
+            }
+
             await _context.SaveChangesAsync();
         }
         catch (DbUpdateException ex)

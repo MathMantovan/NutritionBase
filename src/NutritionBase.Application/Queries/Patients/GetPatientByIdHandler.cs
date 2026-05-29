@@ -20,6 +20,9 @@ public class GetPatientByIdHandler : IRequestHandler<GetPatientByIdQuery, Patien
         var patient = await _repository.GetByIdAsync(query.Id)
             ?? throw new DomainException("Paciente não encontrado.");
 
+        if (patient.NutritionistId != query.NutritionistId)
+            throw new DomainException("Paciente não encontrado.");
+
         return MapToResponse(patient);
     }
 

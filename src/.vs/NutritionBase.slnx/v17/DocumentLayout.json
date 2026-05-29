@@ -1,7 +1,40 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\NutritionBase\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06E90805-F8AB-A6BF-8122-4363186CAF10}|NutritionBase.Api\\NutritionBase.Api.csproj|c:\\users\\matheus.mantovan\\onedrive - jaxtech comerio e servi\u00E7os de tecnologia ltda\\\u00E1rea de trabalho\\devpessoal\\nutritionbase\\nutritionbase\\src\\nutritionbase.api\\controllers\\mealplanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06E90805-F8AB-A6BF-8122-4363186CAF10}|NutritionBase.Api\\NutritionBase.Api.csproj|solutionrelative:nutritionbase.api\\controllers\\mealplanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D1BBAAC-C252-9C73-5B5D-3B0A911CBBF5}|NutritionBase.Infrastructure\\NutritionBase.Infrastructure.csproj|c:\\users\\matheus.mantovan\\onedrive - jaxtech comerio e servi\u00E7os de tecnologia ltda\\\u00E1rea de trabalho\\devpessoal\\nutritionbase\\nutritionbase\\src\\nutritionbase.infrastructure\\repositories\\mealplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D1BBAAC-C252-9C73-5B5D-3B0A911CBBF5}|NutritionBase.Infrastructure\\NutritionBase.Infrastructure.csproj|solutionrelative:nutritionbase.infrastructure\\repositories\\mealplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C232EF7-03A1-1A42-4BC2-FA0A8E474ECF}|NutritionBase.Application\\NutritionBase.Application.csproj|c:\\users\\matheus.mantovan\\onedrive - jaxtech comerio e servi\u00E7os de tecnologia ltda\\\u00E1rea de trabalho\\devpessoal\\nutritionbase\\nutritionbase\\src\\nutritionbase.application\\commands\\mealplans\\addmealhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C232EF7-03A1-1A42-4BC2-FA0A8E474ECF}|NutritionBase.Application\\NutritionBase.Application.csproj|solutionrelative:nutritionbase.application\\commands\\mealplans\\addmealhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C232EF7-03A1-1A42-4BC2-FA0A8E474ECF}|NutritionBase.Application\\NutritionBase.Application.csproj|c:\\users\\matheus.mantovan\\onedrive - jaxtech comerio e servi\u00E7os de tecnologia ltda\\\u00E1rea de trabalho\\devpessoal\\nutritionbase\\nutritionbase\\src\\nutritionbase.application\\commands\\patients\\updatepatienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C232EF7-03A1-1A42-4BC2-FA0A8E474ECF}|NutritionBase.Application\\NutritionBase.Application.csproj|solutionrelative:nutritionbase.application\\commands\\patients\\updatepatienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E90805-F8AB-A6BF-8122-4363186CAF10}|NutritionBase.Api\\NutritionBase.Api.csproj|c:\\users\\matheus.mantovan\\onedrive - jaxtech comerio e servi\u00E7os de tecnologia ltda\\\u00E1rea de trabalho\\devpessoal\\nutritionbase\\nutritionbase\\src\\nutritionbase.api\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06E90805-F8AB-A6BF-8122-4363186CAF10}|NutritionBase.Api\\NutritionBase.Api.csproj|solutionrelative:nutritionbase.api\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C232EF7-03A1-1A42-4BC2-FA0A8E474ECF}|NutritionBase.Application\\NutritionBase.Application.csproj|c:\\users\\matheus.mantovan\\onedrive - jaxtech comerio e servi\u00E7os de tecnologia ltda\\\u00E1rea de trabalho\\devpessoal\\nutritionbase\\nutritionbase\\src\\nutritionbase.application\\commands\\patients\\createpatienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C232EF7-03A1-1A42-4BC2-FA0A8E474ECF}|NutritionBase.Application\\NutritionBase.Application.csproj|solutionrelative:nutritionbase.application\\commands\\patients\\createpatienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C232EF7-03A1-1A42-4BC2-FA0A8E474ECF}|NutritionBase.Application\\NutritionBase.Application.csproj|c:\\users\\matheus.mantovan\\onedrive - jaxtech comerio e servi\u00E7os de tecnologia ltda\\\u00E1rea de trabalho\\devpessoal\\nutritionbase\\nutritionbase\\src\\nutritionbase.application\\queries\\patients\\listpatientshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C232EF7-03A1-1A42-4BC2-FA0A8E474ECF}|NutritionBase.Application\\NutritionBase.Application.csproj|solutionrelative:nutritionbase.application\\queries\\patients\\listpatientshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E90805-F8AB-A6BF-8122-4363186CAF10}|NutritionBase.Api\\NutritionBase.Api.csproj|c:\\users\\matheus.mantovan\\onedrive - jaxtech comerio e servi\u00E7os de tecnologia ltda\\\u00E1rea de trabalho\\devpessoal\\nutritionbase\\nutritionbase\\src\\nutritionbase.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{06E90805-F8AB-A6BF-8122-4363186CAF10}|NutritionBase.Api\\NutritionBase.Api.csproj|solutionrelative:nutritionbase.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +42,116 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PatientsController.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\NutritionBase\\src\\NutritionBase.Api\\Controllers\\PatientsController.cs",
+              "RelativeDocumentMoniker": "NutritionBase.Api\\Controllers\\PatientsController.cs",
+              "ToolTip": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\NutritionBase\\src\\NutritionBase.Api\\Controllers\\PatientsController.cs",
+              "RelativeToolTip": "NutritionBase.Api\\Controllers\\PatientsController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T11:42:42.596Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MealPlanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\NutritionBase\\src\\NutritionBase.Infrastructure\\Repositories\\MealPlanRepository.cs",
+              "RelativeDocumentMoniker": "NutritionBase.Infrastructure\\Repositories\\MealPlanRepository.cs",
+              "ToolTip": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\NutritionBase\\src\\NutritionBase.Infrastructure\\Repositories\\MealPlanRepository.cs",
+              "RelativeToolTip": "NutritionBase.Infrastructure\\Repositories\\MealPlanRepository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T12:34:39.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddMealHandler.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\NutritionBase\\src\\NutritionBase.Application\\Commands\\MealPlans\\AddMealHandler.cs",
+              "RelativeDocumentMoniker": "NutritionBase.Application\\Commands\\MealPlans\\AddMealHandler.cs",
+              "ToolTip": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\NutritionBase\\src\\NutritionBase.Application\\Commands\\MealPlans\\AddMealHandler.cs",
+              "RelativeToolTip": "NutritionBase.Application\\Commands\\MealPlans\\AddMealHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T12:33:05.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MealPlansController.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\NutritionBase\\src\\NutritionBase.Api\\Controllers\\MealPlansController.cs",
+              "RelativeDocumentMoniker": "NutritionBase.Api\\Controllers\\MealPlansController.cs",
+              "ToolTip": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\NutritionBase\\src\\NutritionBase.Api\\Controllers\\MealPlansController.cs",
+              "RelativeToolTip": "NutritionBase.Api\\Controllers\\MealPlansController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAYwEEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T12:31:54.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdatePatientHandler.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\NutritionBase\\src\\NutritionBase.Application\\Commands\\Patients\\UpdatePatientHandler.cs",
+              "RelativeDocumentMoniker": "NutritionBase.Application\\Commands\\Patients\\UpdatePatientHandler.cs",
+              "ToolTip": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\NutritionBase\\src\\NutritionBase.Application\\Commands\\Patients\\UpdatePatientHandler.cs",
+              "RelativeToolTip": "NutritionBase.Application\\Commands\\Patients\\UpdatePatientHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T12:25:59.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ListPatientsHandler.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\NutritionBase\\src\\NutritionBase.Application\\Queries\\Patients\\ListPatientsHandler.cs",
+              "RelativeDocumentMoniker": "NutritionBase.Application\\Queries\\Patients\\ListPatientsHandler.cs",
+              "ToolTip": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\NutritionBase\\src\\NutritionBase.Application\\Queries\\Patients\\ListPatientsHandler.cs",
+              "RelativeToolTip": "NutritionBase.Application\\Queries\\Patients\\ListPatientsHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T12:22:25.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreatePatientHandler.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\NutritionBase\\src\\NutritionBase.Application\\Commands\\Patients\\CreatePatientHandler.cs",
+              "RelativeDocumentMoniker": "NutritionBase.Application\\Commands\\Patients\\CreatePatientHandler.cs",
+              "ToolTip": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\NutritionBase\\src\\NutritionBase.Application\\Commands\\Patients\\CreatePatientHandler.cs",
+              "RelativeToolTip": "NutritionBase.Application\\Commands\\Patients\\CreatePatientHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T12:19:25.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\NutritionBase\\src\\NutritionBase.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "NutritionBase.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Servi\u00E7os de Tecnologia Ltda\\\u00C1rea de Trabalho\\DevPessoal\\NutritionBase\\NutritionBase\\src\\NutritionBase.Api\\appsettings.json",
+              "RelativeToolTip": "NutritionBase.Api\\appsettings.json",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-29T11:23:38.02Z",
+              "EditorCaption": ""
             }
           ]
         }
