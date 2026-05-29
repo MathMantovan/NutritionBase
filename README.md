@@ -24,8 +24,6 @@ API REST para gerenciamento de pacientes e planos alimentares de nutricionistas,
 | MediatR             | ✅     |
 | Autenticação JWT    | ✅     |
 | Testes unitários    | ✅     |
-| FluentValidation    | ❌     |
-| Docker Compose      | ❌     |
 
 ---
 
