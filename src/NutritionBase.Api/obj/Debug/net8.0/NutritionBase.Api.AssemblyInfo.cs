@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NutritionBase.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+480346d7e74beff59e5768adefc939ed4306ca39")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5ede20f20507434e04a6bd516e530ba1ba2dcd3")]
 [assembly: System.Reflection.AssemblyProductAttribute("NutritionBase.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NutritionBase.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NutritionBase.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+784237066a1673a0b42e5c988d2e86dade3cfeff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5ede20f20507434e04a6bd516e530ba1ba2dcd3")]
 [assembly: System.Reflection.AssemblyProductAttribute("NutritionBase.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NutritionBase.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

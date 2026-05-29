@@ -25,10 +25,12 @@ public class NutritionistRepository : INutritionistRepository
             .FirstOrDefaultAsync(n => n.Id == id);
 
     public async Task<Nutritionist?> GetByEmailAsync(string email)
-        => await _context.Nutritionists
+    {
+        var result = await _context.Nutritionists
             .AsNoTracking()
-            .FirstOrDefaultAsync(n => n.Email.Value == email);
-
+            .FirstOrDefaultAsync(n => n.Email.Value.ToString() == email);
+        return result;
+    }
     public async Task<bool> ExistsByEmailAsync(string email)
         => await _context.Nutritionists
             .AnyAsync(n => n.Email.Value == email);

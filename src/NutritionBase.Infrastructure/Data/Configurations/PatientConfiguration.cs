@@ -45,9 +45,6 @@ public class PatientConfiguration : IEntityTypeConfiguration<Patient>
         builder.Property(p => p.CreatedAt).IsRequired();
         builder.Property(p => p.UpdatedAt).IsRequired();
 
-        // Unique email per nutritionist
-        builder.HasIndex("Email.Value", "NutritionistId").IsUnique();
-        // Unique name per nutritionist
         builder.HasIndex(p => new { p.NutritionistId, p.Name }).IsUnique();
 
         builder.HasMany(p => p.MealPlans)

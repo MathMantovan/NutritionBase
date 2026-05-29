@@ -35,6 +35,7 @@ publish/
 # Variáveis de ambiente e segredos
 .env
 .env.*
+appsettings.json
 appsettings.Development.json
 appsettings.Local.json
 secrets.json
