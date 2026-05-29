@@ -10,7 +10,9 @@ namespace NutritionBase.Domain.ValueObjects
 {
     public class Email
     {
-        public string Value { get; }
+        public string Value { get; private set; }
+
+        protected Email() { }
 
         private Email(string value)
         {

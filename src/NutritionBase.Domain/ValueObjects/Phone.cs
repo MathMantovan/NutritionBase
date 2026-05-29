@@ -12,6 +12,8 @@ namespace NutritionBase.Domain.ValueObjects
         public string AreaCode { get; private set; }
         public string Number { get; private set; }
 
+        protected Phone() { }
+
         private Phone(string areaCode, string number)
         {
             AreaCode = areaCode;

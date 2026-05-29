@@ -377,6 +377,14 @@
           }
         }
       },
+      "SecureIdentity/1.0.4": {
+        "runtime": {
+          "lib/net6.0/SecureIdentity.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/10.0.0": {
         "runtime": {
           "lib/net8.0/System.Diagnostics.DiagnosticSource.dll": {
@@ -438,7 +446,8 @@
       "NutritionBase.Application/1.0.0": {
         "dependencies": {
           "MediatR": "14.1.0",
-          "NutritionBase.Domain": "1.0.0"
+          "NutritionBase.Domain": "1.0.0",
+          "SecureIdentity": "1.0.4"
         },
         "runtime": {
           "NutritionBase.Application.dll": {
@@ -560,6 +569,13 @@
       "sha512": "sha512-QWINE2x3MbTODsWT1Gh71GaGb5icBz4chS8VYvTgsBnsi8esgN6wtHhydd7fvToWECYGq7T4cgBBDiKD/363fg==",
       "path": "nuget.frameworks/6.5.0",
       "hashPath": "nuget.frameworks.6.5.0.nupkg.sha512"
+    },
+    "SecureIdentity/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/s0TMYeHuLXFh2nI337IFGL2E3FJU+o20W4e52muxbWl5BPefUlmEPBTwWuCq3NczwWhbes5GDC6kDWYBrhLaQ==",
+      "path": "secureidentity/1.0.4",
+      "hashPath": "secureidentity.1.0.4.nupkg.sha512"
     },
     "System.Diagnostics.DiagnosticSource/10.0.0": {
       "type": "package",
