@@ -332,3 +332,9 @@ C:\Dev\NutritionBase\NutritionBase\src\NutritionBase.UnitTests\obj\Debug\net8.0\
 C:\Dev\NutritionBase\NutritionBase\src\NutritionBase.UnitTests\obj\Debug\net8.0\NutritionBase.UnitTests.pdb
 C:\Dev\NutritionBase\NutritionBase\src\NutritionBase.UnitTests\obj\Debug\net8.0\NutritionBase.UnitTests.genruntimeconfig.cache
 C:\Dev\NutritionBase\NutritionBase\src\NutritionBase.UnitTests\obj\Debug\net8.0\ref\NutritionBase.UnitTests.dll
+C:\Dev\NutritionBase\NutritionBase\src\NutritionBase.UnitTests\bin\Debug\net8.0\Castle.Core.dll
+C:\Dev\NutritionBase\NutritionBase\src\NutritionBase.UnitTests\bin\Debug\net8.0\FluentAssertions.dll
+C:\Dev\NutritionBase\NutritionBase\src\NutritionBase.UnitTests\bin\Debug\net8.0\Moq.dll
+C:\Dev\NutritionBase\NutritionBase\src\NutritionBase.UnitTests\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+C:\Dev\NutritionBase\NutritionBase\src\NutritionBase.UnitTests\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+C:\Dev\NutritionBase\NutritionBase\src\NutritionBase.UnitTests\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll

@@ -118,7 +118,9 @@ public class Patient
 
     private static void ValidateBirthDate(DateTime birthDate)
     {
-        if (birthDate >= DateTime.UtcNow)
+        if (birthDate.Date >= DateTime.UtcNow.Date)
+            throw new DomainException("Data de nascimento inválida.");
+        if (birthDate.Date == DateTime.UtcNow.Date)
             throw new DomainException("Data de nascimento inválida.");
     }
 }
