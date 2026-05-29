@@ -5,6 +5,7 @@ namespace NutritionBase.Application.Commands.Patients;
 
 public record UpdatePatientCommand(
     Guid Id,
+    Guid NutritionistId,
     string Name,
     string Email,
     string AreaCode,

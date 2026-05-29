@@ -13,7 +13,6 @@ public class MealPlan
     public DateTime EndDate { get; private set; }
     public DateTime CreatedAt { get; private set; }
     public DateTime UpdatedAt { get; private set; }
-    public bool IsActive { get; private set; }
 
     private readonly List<Meal> _meals = new();
     public IReadOnlyList<Meal> Meals => _meals.AsReadOnly();
@@ -30,7 +29,6 @@ public class MealPlan
         EndDate = endDate;
         CreatedAt = DateTime.UtcNow;
         UpdatedAt = DateTime.UtcNow;
-        IsActive = true;
     }
 
     public static MealPlan Create(Guid patientId, string name, string objective, DateTime startDate, DateTime endDate)
@@ -86,24 +84,6 @@ public class MealPlan
             throw new DomainException($"Já existe uma refeição com o nome '{name}' neste plano alimentar.");
 
         meal.Update(name, mealTime);
-        UpdatedAt = DateTime.UtcNow;
-    }
-
-    public void Deactivate()
-    {
-        if (!IsActive)
-            throw new DomainException("Plano alimentar já está inativo.");
-
-        IsActive = false;
-        UpdatedAt = DateTime.UtcNow;
-    }
-
-    public void Activate()
-    {
-        if (IsActive)
-            throw new DomainException("Plano alimentar já está ativo.");
-
-        IsActive = true;
         UpdatedAt = DateTime.UtcNow;
     }
 

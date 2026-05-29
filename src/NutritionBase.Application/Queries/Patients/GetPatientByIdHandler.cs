@@ -26,5 +26,5 @@ public class GetPatientByIdHandler : IRequestHandler<GetPatientByIdQuery, Patien
     private static PatientResponse MapToResponse(Patient patient) =>
         new(patient.Id, patient.NutritionistId, patient.Name, patient.Email.Value,
             patient.Phone.AreaCode, patient.Phone.Number, patient.BirthDate,
-            patient.Weight, patient.Height, patient.IsActive);
+            patient.Weight, patient.Height);
 }

@@ -3,6 +3,7 @@ using NutritionBase.Application.DTOs.Nutritionists;
 using NutritionBase.Domain.Entities;
 using NutritionBase.Domain.Exceptions;
 using NutritionBase.Domain.Interfaces;
+using SecureIdentity.Password;
 
 namespace NutritionBase.Application.Commands.Nutritionists;
 
@@ -20,7 +21,8 @@ public class CreateNutritionistHandler : IRequestHandler<CreateNutritionistComma
         if (await _repository.ExistsByEmailAsync(command.Email))
             throw new DomainException($"Já existe um nutricionista com o e-mail '{command.Email}'.");
 
-        var nutritionist = Nutritionist.Create(command.Name, command.Email, command.PasswordHash);
+        var hash = PasswordHasher.Hash(command.Password);
+        var nutritionist = Nutritionist.Create(command.Name, command.Email, hash);
         await _repository.AddAsync(nutritionist);
 
         return new NutritionistResponse(nutritionist.Id, nutritionist.Name, nutritionist.Email.Value, nutritionist.IsActive);

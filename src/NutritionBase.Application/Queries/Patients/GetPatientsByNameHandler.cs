@@ -1,11 +1,12 @@
 using MediatR;
 using NutritionBase.Application.DTOs.Patients;
 using NutritionBase.Domain.Entities;
+using NutritionBase.Domain.Exceptions;
 using NutritionBase.Domain.Interfaces;
 
 namespace NutritionBase.Application.Queries.Patients;
 
-public class GetPatientsByNameHandler : IRequestHandler<GetPatientsByNameQuery, IReadOnlyList<PatientResponse>>
+public class GetPatientsByNameHandler : IRequestHandler<GetPatientsByNameQuery, PatientResponse?>
 {
     private readonly IPatientRepository _repository;
 
@@ -14,14 +15,16 @@ public class GetPatientsByNameHandler : IRequestHandler<GetPatientsByNameQuery, 
         _repository = repository;
     }
 
-    public async Task<IReadOnlyList<PatientResponse>> Handle(GetPatientsByNameQuery query, CancellationToken cancellationToken)
+    public async Task<PatientResponse?> Handle(GetPatientsByNameQuery query, CancellationToken cancellationToken)
     {
-        var patients = await _repository.GetByNameAsync(query.Name, query.NutritionistId);
-        return patients.Select(MapToResponse).ToList().AsReadOnly();
+        var patient = await _repository.GetByNameAsync(query.Name, query.NutritionistId)
+                        ?? throw new DomainException("Paciente não encontrado.");
+
+        return MapToResponse(patient);
     }
 
     private static PatientResponse MapToResponse(Patient patient) =>
         new(patient.Id, patient.NutritionistId, patient.Name, patient.Email.Value,
             patient.Phone.AreaCode, patient.Phone.Number, patient.BirthDate,
-            patient.Weight, patient.Height, patient.IsActive);
+            patient.Weight, patient.Height);
 }

@@ -16,7 +16,6 @@ public class Patient
     public decimal Height { get; private set; }
     public DateTime CreatedAt { get; private set; }
     public DateTime UpdatedAt { get; private set; }
-    public bool IsActive { get; private set; }
 
     private readonly List<MealPlan> _mealPlans = new();
     public IReadOnlyList<MealPlan> MealPlans => _mealPlans.AsReadOnly();
@@ -35,7 +34,6 @@ public class Patient
         Height = height;
         CreatedAt = DateTime.UtcNow;
         UpdatedAt = DateTime.UtcNow;
-        IsActive = true;
     }
 
     public static Patient Create(Guid nutritionistId, string name, string email, string number, string areaCode, DateTime birthDate, decimal weight, decimal height)
@@ -66,8 +64,8 @@ public class Patient
     }
     public void AddMealPlan(MealPlan mealPlan)
     {
-        if (_mealPlans.Any(mp => mp.Name.Equals(mealPlan.Name, StringComparison.OrdinalIgnoreCase) && mp.IsActive))
-            throw new DomainException($"Já existe um plano alimentar ativo com o nome '{mealPlan.Name}' para este paciente.");
+        if (_mealPlans.Any(mp => mp.Name.Equals(mealPlan.Name, StringComparison.OrdinalIgnoreCase)))
+            throw new DomainException($"Já existe um plano alimentar com o nome '{mealPlan.Name}' para este paciente.");
 
         _mealPlans.Add(mealPlan);
         UpdatedAt = DateTime.UtcNow;
@@ -91,28 +89,10 @@ public class Patient
         if (mealPlan == null)
             throw new DomainException("Plano alimentar não encontrado.");
 
-        if (_mealPlans.Any(mp => mp.Id != mealPlanId && mp.Name.Equals(name, StringComparison.OrdinalIgnoreCase) && mp.IsActive))
-            throw new DomainException($"Já existe um plano alimentar ativo com o nome '{name}' para este paciente.");
+        if (_mealPlans.Any(mp => mp.Id != mealPlanId && mp.Name.Equals(name, StringComparison.OrdinalIgnoreCase)))
+            throw new DomainException($"Já existe um plano alimentar com o nome '{name}' para este paciente.");
 
         mealPlan.Update(name, objective, startDate, endDate);
-        UpdatedAt = DateTime.UtcNow;
-    }
-
-    public void Deactivate()
-    {
-        if (!IsActive)
-            throw new DomainException("Paciente já está inativo.");
-
-        IsActive = false;
-        UpdatedAt = DateTime.UtcNow;
-    }
-
-    public void Activate()
-    {
-        if (IsActive)
-            throw new DomainException("Paciente já está ativo.");
-
-        IsActive = true;
         UpdatedAt = DateTime.UtcNow;
     }
 

@@ -3,4 +3,4 @@ using NutritionBase.Application.DTOs.Nutritionists;
 
 namespace NutritionBase.Application.Commands.Nutritionists;
 
-public record CreateNutritionistCommand(string Name, string Email, string Password) : IRequest<NutritionistResponse>;
+public record LoginNutritionistCommand(string Email, string Password) : IRequest<AuthResponse>;

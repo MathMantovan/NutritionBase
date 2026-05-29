@@ -175,6 +175,15 @@
           }
         }
       },
+      "SecureIdentity/1.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/SecureIdentity.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/SecureIdentity.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/6.6.2": {
         "type": "package",
         "dependencies": {
@@ -259,7 +268,8 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "MediatR": "14.1.0",
-          "NutritionBase.Domain": "1.0.0"
+          "NutritionBase.Domain": "1.0.0",
+          "SecureIdentity": "1.0.4"
         },
         "compile": {
           "bin/placeholder/NutritionBase.Application.dll": {}
@@ -793,6 +803,18 @@
         "microsoft.openapi.nuspec"
       ]
     },
+    "SecureIdentity/1.0.4": {
+      "sha512": "/s0TMYeHuLXFh2nI337IFGL2E3FJU+o20W4e52muxbWl5BPefUlmEPBTwWuCq3NczwWhbes5GDC6kDWYBrhLaQ==",
+      "type": "package",
+      "path": "secureidentity/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/SecureIdentity.dll",
+        "secureidentity.1.0.4.nupkg.sha512",
+        "secureidentity.nuspec"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.6.2": {
       "sha512": "+NB4UYVYN6AhDSjW0IJAd1AGD8V33gemFNLPaxKTtPkHB+HaKAKf9MGAEUPivEWvqeQfcKIw8lJaHq6LHljRuw==",
       "type": "package",
@@ -948,23 +970,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\matheus.mantovan\\.nuget\\packages\\": {},
+    "C:\\Users\\math1\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Api\\NutritionBase.Api.csproj",
+      "projectUniqueName": "C:\\Dev\\NutritionBase\\NutritionBase\\src\\NutritionBase.Api\\NutritionBase.Api.csproj",
       "projectName": "NutritionBase.Api",
-      "projectPath": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Api\\NutritionBase.Api.csproj",
-      "packagesPath": "C:\\Users\\matheus.mantovan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Api\\obj\\",
+      "projectPath": "C:\\Dev\\NutritionBase\\NutritionBase\\src\\NutritionBase.Api\\NutritionBase.Api.csproj",
+      "packagesPath": "C:\\Users\\math1\\.nuget\\packages\\",
+      "outputPath": "C:\\Dev\\NutritionBase\\NutritionBase\\src\\NutritionBase.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\matheus.mantovan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\math1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -973,6 +995,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -980,11 +1003,11 @@
           "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Application\\NutritionBase.Application.csproj": {
-              "projectPath": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Application\\NutritionBase.Application.csproj"
+            "C:\\Dev\\NutritionBase\\NutritionBase\\src\\NutritionBase.Application\\NutritionBase.Application.csproj": {
+              "projectPath": "C:\\Dev\\NutritionBase\\NutritionBase\\src\\NutritionBase.Application\\NutritionBase.Application.csproj"
             },
-            "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Infrastructure\\NutritionBase.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Infrastructure\\NutritionBase.Infrastructure.csproj"
+            "C:\\Dev\\NutritionBase\\NutritionBase\\src\\NutritionBase.Infrastructure\\NutritionBase.Infrastructure.csproj": {
+              "projectPath": "C:\\Dev\\NutritionBase\\NutritionBase\\src\\NutritionBase.Infrastructure\\NutritionBase.Infrastructure.csproj"
             }
           }
         }

@@ -9,5 +9,4 @@ public record PatientResponse(
     string PhoneNumber,
     DateTime BirthDate,
     decimal Weight,
-    decimal Height,
-    bool IsActive);
+    decimal Height);

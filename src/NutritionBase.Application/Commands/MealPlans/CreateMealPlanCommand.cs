@@ -8,4 +8,4 @@ public record CreateMealPlanCommand(
     string Name,
     string Objective,
     DateTime StartDate,
-    DateTime EndDate) : IRequest<MealPlanResponse>;
+    DateTime EndDate) : IRequest<MealPlanCreateResponse>;

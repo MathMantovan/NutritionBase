@@ -1,5 +1,4 @@
-﻿// NutritionBase.Domain/Entities/Meal.cs
-using NutritionBase.Domain.Enums;
+﻿using NutritionBase.Domain.Enums;
 using NutritionBase.Domain.Exceptions;
 
 namespace NutritionBase.Domain.Entities;
@@ -48,9 +47,6 @@ public class Meal
 
     public void AddFoodItem(FoodItem foodItem)
     {
-        if (_foodItems.Any(f => f.Name.Equals(foodItem.Name, StringComparison.OrdinalIgnoreCase)))
-            throw new DomainException($"Já existe um alimento com o nome '{foodItem.Name}' nesta refeição.");
-
         _foodItems.Add(foodItem);
         UpdatedAt = DateTime.UtcNow;
     }

@@ -2,4 +2,4 @@ using MediatR;
 
 namespace NutritionBase.Application.Commands.Patients;
 
-public record DeactivatePatientCommand(Guid Id) : IRequest;
+public record RemovePatientCommand(Guid PatientId) : IRequest;

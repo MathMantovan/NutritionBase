@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U0naG3BqZgY=",
+  "dgSpecHash": "WV42yXxebJc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\matheus.mantovan\\OneDrive - JAXTech Comerio e Serviços de Tecnologia Ltda\\Área de Trabalho\\DevPessoal\\Nutri\\NutritionBase\\src\\NutritionBase.Domain\\NutritionBase.Domain.csproj",
+  "projectFilePath": "C:\\Dev\\NutritionBase\\NutritionBase\\src\\NutritionBase.Domain\\NutritionBase.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

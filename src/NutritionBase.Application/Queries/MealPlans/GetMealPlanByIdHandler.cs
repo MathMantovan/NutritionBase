@@ -25,7 +25,7 @@ public class GetMealPlanByIdHandler : IRequestHandler<GetMealPlanByIdQuery, Meal
 
     private static MealPlanResponse MapToResponse(MealPlan mealPlan) =>
         new(mealPlan.Id, mealPlan.PatientId, mealPlan.Name, mealPlan.Objective,
-            mealPlan.StartDate, mealPlan.EndDate, mealPlan.IsActive,
+            mealPlan.StartDate, mealPlan.EndDate,
             mealPlan.Meals.Select(MapMealToResponse).ToList().AsReadOnly());
 
     private static MealResponse MapMealToResponse(Meal meal) =>

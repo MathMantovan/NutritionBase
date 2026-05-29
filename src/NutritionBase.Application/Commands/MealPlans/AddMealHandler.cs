@@ -21,6 +21,13 @@ public class AddMealHandler : IRequestHandler<AddMealCommand, MealPlanResponse>
             ?? throw new DomainException("Plano alimentar não encontrado.");
 
         var meal = Meal.Create(command.MealPlanId, command.Name, command.MealTime);
+
+        foreach (var item in command.FoodItems)
+        {
+            var foodItem = FoodItem.Create(meal.Id, item.Name, item.Quantity, item.Unit, item.Calories);
+            meal.AddFoodItem(foodItem);
+        }
+
         mealPlan.AddMeal(meal);
         await _repository.UpdateAsync(mealPlan);
 
@@ -29,7 +36,7 @@ public class AddMealHandler : IRequestHandler<AddMealCommand, MealPlanResponse>
 
     private static MealPlanResponse MapToResponse(MealPlan mealPlan) =>
         new(mealPlan.Id, mealPlan.PatientId, mealPlan.Name, mealPlan.Objective,
-            mealPlan.StartDate, mealPlan.EndDate, mealPlan.IsActive,
+            mealPlan.StartDate, mealPlan.EndDate,
             mealPlan.Meals.Select(MapMealToResponse).ToList().AsReadOnly());
 
     private static MealResponse MapMealToResponse(Meal meal) =>
